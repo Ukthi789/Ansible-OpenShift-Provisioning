@@ -154,8 +154,8 @@ env:
 # Section 9 - Compute Nodes
       compute:
         disk_size: 120
-        ram: 16384
-        vcpu: 4
+        ram: 65536
+        vcpu: 16
         vcpu_model_option: "--cpu host"
         vm_name:
 #         - X
